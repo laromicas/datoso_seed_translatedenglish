@@ -1,4 +1,3 @@
-from dataclasses import dataclass
 from datoso_plugin_internetarchive.fetch import fetch_helper
 from datoso_plugin_internetarchive.ia import Archive
 from datoso.configuration.folder_helper import Folders
