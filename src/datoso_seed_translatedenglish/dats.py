@@ -12,9 +12,11 @@ class TranslatedEnglishDat(XMLDatFile):
     def initial_parse(self):
         # pylint: disable=R0801
         """ Parse the dat file. """
-        name = self.name
+        full_name = self.name
 
-        name = name.split('[T-En]')[0].strip()
+        name = full_name.split('[T-En]')[0].strip()
+        if name == full_name:
+            raise Exception(f'Could not parse {full_name}')
         name_array = name.split(' - ')
 
         company, system = name_array
