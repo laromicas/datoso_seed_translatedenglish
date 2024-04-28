@@ -22,8 +22,8 @@ classifiers = [
     'Topic :: System :: Emulators',
 ]
 dependencies = [
-    "datoso>=0.3.5",
-    "datoso-plugin-internetarchive>=0.3.1",
+    "datoso>=1.0a0.dev0",
+    "datoso-plugin-internetarchive>=1.0a0.dev0",
 ]
 dynamic = ["version"]
 

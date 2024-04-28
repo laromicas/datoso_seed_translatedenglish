@@ -4,16 +4,16 @@ rules = [
     {
         'name': 'TranslatedEnglish Dat',
         '_class': TranslatedEnglishDat,
-        "seed": "t_en",
-        "priority": 50,
-        "rules": [
+        'seed': 't_en',
+        'priority': 50,
+        'rules': [
             {
-                "key": "name",
-                "operator": "contains",
-                "value": "[T-En]"
-            }
-        ]
-    }
+                'key': 'name',
+                'operator': 'contains',
+                'value': '[T-En]',
+            },
+        ],
+    },
 ]
 
 
