@@ -18,7 +18,7 @@ class TranslatedEnglishDat(XMLDatFile):
         name = full_name.split('[T-En]')[0].strip()
         if name == full_name:
             msg = f'Could not parse {full_name}'
-            raise Exception(msg)
+            raise ValueError(msg)
         name_array = name.split(' - ')
 
         company, system = name_array
