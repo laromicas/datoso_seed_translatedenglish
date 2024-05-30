@@ -2,7 +2,7 @@
 import re
 
 from datoso.configuration import config
-from datoso.repositories.dat import XMLDatFile
+from datoso.repositories.dat_file import XMLDatFile
 
 
 class TranslatedEnglishDat(XMLDatFile):
