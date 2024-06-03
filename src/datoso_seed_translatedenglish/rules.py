@@ -1,3 +1,4 @@
+"""Rules for the Translated English seed."""
 from datoso_seed_translatedenglish.dats import TranslatedEnglishDat
 
 rules = [
@@ -17,5 +18,6 @@ rules = [
 ]
 
 
-def get_rules():
+def get_rules() -> list:
+    """Get the rules."""
     return rules
