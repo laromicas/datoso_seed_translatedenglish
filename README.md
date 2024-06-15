@@ -11,7 +11,7 @@ Translated-English is a collection of DATs aimed for video game translations.
 
 ## Installation
 
-Datoso requires python 3.10+.
+Datoso requires python 3.11+.
 
 Use pip (recommended to use a virtual environment):
 If you only need this plugin you can install it directly
