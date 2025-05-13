@@ -10,5 +10,5 @@ def fetch() -> None:
     folder_helper = Folders(seed=__prefix__)
     folder_helper.clean_dats()
     folder_helper.create_all()
-    archive = Archive(dat_folder='DATs', item='En-ROMs')
+    archive = Archive(dat_folder='DATs', item='Retroplay-En-ROMs-2025')
     fetch_helper(archive, folder_helper, __prefix__)
